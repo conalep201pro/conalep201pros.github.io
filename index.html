@@ -4,7 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tecnologías 4.0</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .technology {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Estilos adicionales */
+    #inicio {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    #acerca .technology {
+      background-color: #f9f9f9;
+    }
+
+    #contacto form {
+      margin-top: 20px;
+    }
+
+    #contacto label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    #contacto input[type="text"],
+    #contacto input[type="email"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -40,12 +125,24 @@
       </div>
     </section>
 
-    <section id=6567553307>
+    <section id="contacto">
       <h2>Contacto</h2>
       <p>Si deseas obtener más información sobre las tecnologías 4.0 o tienes alguna consulta, no dudes en ponerte en contacto con nosotros.</p>
       <form>
-        <label for=carlos>Nombre:</label>
+        <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
-  
-        <label for=conaeddie@gmail.com>Email:</label
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Derechos de autor &copy; 2023 | Nombre de tu empresa</p>
+  </footer>
+</body>
+</html>
 
